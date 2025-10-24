@@ -70,7 +70,7 @@ The EDA explores patterns in the dataset, such as:
 ## 🧪 Model Selection
 
 Accuracy and F1 Scores were compared across various models like
-- Logisitc Regression
+- Logistic Regression
 - Naive Bayes (Multinomial)
 - Random Forest
 - XGBoost
@@ -78,7 +78,7 @@ Accuracy and F1 Scores were compared across various models like
 Hyperparameters were further tuned for Logistic Regression and XGBoost.
 
 Ensemble Soft Voting Models were also tried for
-- Logisitc Regression + Naive Bayes + Random Forest + XGBoost
+- Logistic Regression + Naive Bayes + Random Forest + XGBoost
 - Logistic Regression + Naive Bayes
 - Logistic Regression + XGBoost
 
@@ -86,5 +86,5 @@ But best Accuracy(0.82) and F1 score(0.77) was found for Logistic Regression Mod
 
 ---
 
-🚀 [Deployed Streamlit App ]([url](https://catastrophe-post-genuinity-predictor.streamlit.app/))
+🚀 [https://catastrophe-post-genuinity-predictor.streamlit.app/](Deployed Streamlit App)
 

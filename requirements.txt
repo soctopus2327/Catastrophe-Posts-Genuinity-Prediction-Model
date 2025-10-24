@@ -4,4 +4,4 @@ emoji
 nltk
 scipy
 numpy
-sklearn
+scikit-learn

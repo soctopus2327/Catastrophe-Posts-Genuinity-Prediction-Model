@@ -12,10 +12,10 @@ model = joblib.load("lr_model.pkl")
 tfidf = joblib.load("tfidf_vectorizer.pkl")
 scaler = joblib.load("scaler.pkl") 
 
-st.set_page_config(page_title="Disaster Tweet Predictor", layout="centered")
-st.title("🚨 Disaster Tweet Prediction")
+st.set_page_config(page_title="Catastrophe Posts Genuinity Prediction", layout="centered")
+st.title("🚨 Catastrophe Posts Genuinity Prediction")
 st.write(
-    "Enter a tweet to check if it is reporting a **real disaster** or not. "
+    "Enter a text from a post to check if it is reporting a **real disaster** or not. "
     "The prediction uses a trained Logistic Regression model with TF-IDF + numeric features."
 )
 

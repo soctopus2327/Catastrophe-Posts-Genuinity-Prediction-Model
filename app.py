@@ -3,10 +3,13 @@ import joblib
 import string
 import re
 import emoji
-from nltk.corpus import stopwords
+import nltk
 from nltk.stem import PorterStemmer
 from scipy.sparse import hstack
 import numpy as np
+
+nltk.download('stopwords')
+from nltk.corpus import stopwords
 
 model = joblib.load("lr_model.pkl")
 tfidf = joblib.load("tfidf_vectorizer.pkl")

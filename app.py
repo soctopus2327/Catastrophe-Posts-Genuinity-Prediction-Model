@@ -11,9 +11,9 @@ import numpy as np
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 
-model = joblib.load("lr_model.pkl")
-tfidf = joblib.load("tfidf_vectorizer.pkl")
-scaler = joblib.load("scaler.pkl") 
+model = joblib.load("models/lr_model.pkl")
+tfidf = joblib.load("models/tfidf_vectorizer.pkl")
+scaler = joblib.load("models/scaler.pkl") 
 
 st.set_page_config(page_title="Catastrophe Posts Genuinity Prediction", layout="centered")
 st.title("🚨 Catastrophe Posts Genuinity Prediction")

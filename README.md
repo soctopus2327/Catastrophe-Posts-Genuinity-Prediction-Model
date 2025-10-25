@@ -86,5 +86,5 @@ But best Accuracy(0.82) and F1 score(0.77) was found for Logistic Regression Mod
 
 ---
 
-🚀 [https://catastrophe-post-genuinity-predictor.streamlit.app/](Deployed Streamlit App)
+🚀 [Deployed Streamlit App](https://catastrophe-post-genuinity-predictor.streamlit.app/)
 
